@@ -33,12 +33,12 @@ header {
 
 nav a:hover {
     background-color: #333d29;
-    color: rgb(244, 240, 15);
+    color: #22aaa1;
 }
 
 nav a {
-    background-color: #22aaa1;
-    color: #333d29;
+    background-color: #333d29;
+    color: rgb(244, 240, 15);
     text-align: center;
     text-decoration: none;
 }
