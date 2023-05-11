@@ -1,72 +1,112 @@
-#content{
+#content {
     max-width: 1600px;
     margin: 0 auto;
 }
-nav a,
-#hero-msg h1,
-#hero-msg h4,
-.button-box,
-main section {
-  text-align: center;
+main section{
+    text-align: center;
 }
-#background{
-height: 725px;
+.button-box{
+    text-align: center;
+}
+#hero-msg h4{
+    text-align: center;
 }
 
+#hero-msg h1{
+    text-align: center;
+} 
+/* backgorund color and size for the msg section */
+#background {
+    background-color: #22aaa1;
+    height: 725px;
+}
+
+
 body {
-    background-color: #333d29; 
+    background-color: #333d29;
 }
+
 header {
-    color: #22aaa1;
+    background-color: #22aaa1;
+    
 }
+
 nav a:hover {
-    background-color: #fffcff;
-}
-nav a{
-background-color: #22aaa1;
-text-decoration: none;
-}
-.home-title{
-    color: #22aaa1 ;
-}
-h4{
+    background-color: #333d29;
     color: rgb(244, 240, 15);
 }
-.book, .join{
-    color: #fffcff;
+
+nav a {
+    background-color: #22aaa1;
+    color: #333d29;
+    text-align: center;
     text-decoration: none;
 }
-.book:hover, .join:hover{
-    color: #22aaa1;
-}
-.msg h2{
+
+.home-title {
     color: rgb(244, 240, 15);
 }
-.msg p{
-    color: #22aaa1;
-}
-footer{
+
+h4 {
     color: rgb(244, 240, 15);
 }
-footer a{
-    color: rgb(244, 240, 15);
+
+.book,
+.join {
+    background-color: #22aaa1;
+    color: #333d29;
     text-decoration: none;
 }
-footer a:hover{
+
+.book:hover,
+.join:hover {
+    background-color: #22aaa1;
+    color: rgb(244, 240, 15);
+}
+.msg{
+    background-color:rgb(244, 240, 15);
     color: #22aaa1;
 }
-.logo{
+.msg h2 {
+    color: #333d29;
+}
+
+.msg p {
+    color: #333d29;
+}
+
+footer {
+    color: #333d29;
+}
+
+footer a {
+    color: #333d29;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #22aaa1;
+}
+
+.logo {
     width: 80px;
 }
-.icon{
+
+.icon {
     width: 80px;
 }
-#hero-img{
+
+#hero-img {
     width: 100%;
 }
-footer p{
+
+footer p {
     font-size: 1.2em;
 }
-footer p a:hover{
+
+footer p a:hover {
     text-decoration: underline;
+}
+#bottom-background{
+    background-color: rgb(244, 240, 15);
 }
