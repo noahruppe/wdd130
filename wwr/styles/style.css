@@ -43,7 +43,6 @@ nav a:hover {
 }
 
 nav a {
-    background-color: #333d29;
     color: rgb(244, 240, 15);
     text-align: center;
     text-decoration: none;
@@ -97,6 +96,7 @@ h4 {
 }
 
 footer {
+    background-color: rgb(244, 240, 15);
     color: #333d29;
     padding: 25px 50px;
     margin-top: 200px;
@@ -134,9 +134,6 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
-}
-#bottom-background{
-    background-color: rgb(244, 240, 15);
 }
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
