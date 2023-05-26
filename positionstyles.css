@@ -33,8 +33,8 @@ grid-column: 1/3;
  .content2 {
     /* This is the parent of the activity 2 boxes. */
     display: grid;
-    grid-template-columns: repeat(6, 50px);
-    grid-template-rows: repeat(6, 50px);
+    grid-template-columns: repeat(5, 50px);
+    grid-template-rows: repeat(5, 50px);
     
 }
 
@@ -69,39 +69,43 @@ grid-column: 1/3;
  .content3 {
     /* This is the parent of the activity 3 boxes. */
     display: grid;
-    grid-template-columns: repeat(2,minmax(0,1fr));
-    grid-template-rows:50px 100px 50px;
-    grid-column-gap: 50%; 
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 100px;
 }
 .red3 {
     grid-column: 1/5;
     grid-row: 1; 
     width: 100%;
+    height: 100px;
 background-color: red; 
  } 
 .green3 {
-    grid-column: 1/3;
+    grid-column: 1/2;
     grid-row: 2;
     width: 100%;
+    height: 200px;
 background-color: green;
+
  } 
 .yellow3 {
-    grid-column: 3/5;
+    grid-column: 2/5;
     grid-row: 2;
     width: 100%;
+    height: 200px;
 background-color: gold; 
  } 
 .blue3 {
     grid-column: 1/5;
     grid-row: 3;
     width: 100%;
+    height: 100px;
 background-color: blue; 
  } 
  /* Activity 4 styles */ 
 .content4 {
     /* This is the parent of the activity 4 boxes. */
     display: grid;
-    grid-template-columns: repeat(2,400px);
+    grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(3,200px);
 }
 .red4 {
