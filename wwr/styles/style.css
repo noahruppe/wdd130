@@ -184,7 +184,7 @@ main section img{
     grid-column: 2/7;
     grid-row: 5/8;
 }
-home-grid{
+.home-grid{
     display: grid;
     grid-template-columns: repeat(10,1fr)
 }
