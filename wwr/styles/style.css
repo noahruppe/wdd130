@@ -90,7 +90,7 @@ h4 {
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 15px 15px 20px #3e3e3e;
 }
 .msg h2 {
     color: #333d29;
@@ -169,7 +169,7 @@ footer p a:hover {
 .card-img{
     border: 10px solid #22aaa1;
     transition: transition .5s;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 15px 15px 20px #3e3e3e;
 }
 .card-img:hover {
     opacity: .6;
@@ -179,8 +179,6 @@ main section img{
     box-sizing: border-box;
 }
 .mountains{
-    padding-top: 100px;
-    padding-bottom: 200px;
     grid-column: 2/7;
     grid-row: 5/8;
 }
