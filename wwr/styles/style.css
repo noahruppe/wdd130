@@ -365,3 +365,44 @@ main section img{
 }
   
   
+
+
+@media screen and (max-width: 900px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(4, auto);
+    }
+  
+    #banner_image,
+    #main_fork,
+    #gray_utah,
+    #arizona_pic {
+      grid-column: 1 / span 2;
+      grid-row: auto;
+      margin-top: 0;
+    }
+  
+    .title_for_banner,
+    .main_fork_text,
+    .gray_canyon_text,
+    .arizona_text {
+      grid-column: 1 / span 2;
+      margin-left: 0;
+      margin-top: 0;
+    }
+  
+    #main_fork_title,
+    #gray_canyon_title,
+    #arizona_title {
+      grid-column: 1 / span 2;
+      margin-top: 20px;
+    }
+  
+    .images_and_text,
+    .gray_canyon,
+    .arizona {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(4, auto);
+    }
+  }
+  
