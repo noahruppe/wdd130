@@ -77,7 +77,7 @@ nav a.contacttxt {
 }
 .dream{
     grid-column: 2/4;
-    margin-top: -50px;
+    margin-top: -10px;
     text-align: center;
     font-size: 3em;
     font-family: Imbue,"Noto Serif Japanese","Roboto Slab" ;
@@ -92,7 +92,6 @@ nav a.contacttxt {
 .msg{
     display: grid;
     grid-template-columns: repeat(10,1fr);
-    grid-template-rows: repeat(4,200px);
 }
 #background{
     grid-column: 3/9;
