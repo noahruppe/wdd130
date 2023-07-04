@@ -42,10 +42,14 @@
     font-size: 60px;
   }
   span[onclick="openNav()"] {
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: -10%;
     background-color: black;
     padding: 10px;
     color: white; 
     cursor: pointer;
+    
 
 }
   @media screen and (max-height: 450px) {
