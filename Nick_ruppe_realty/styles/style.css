@@ -273,8 +273,8 @@ footer {
 }
 .p1{
     color: #fff;
-    grid-column: 3/7;
-    font-size: 3.3em;
+    grid-column: 1/7;
+    font-size: 3.5em;
     display: flex;
     justify-content: center;
     align-items: center;
