@@ -8,15 +8,13 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div id="content-2">
-        <header id="header-2">
-            <img src="images/NR.png" alt="logo-pic" id="logo-2">
-            <nav id="nav-2">
-                <div id="links">
-                <a href="index.html">Home</a>
-                <a href="information.html">Agent Info</a>
-                <a href="contact-us.html">Contact/Referrals</a>
-                </div>
+    <div id="content">
+        <header class="header-1">
+            <img src="images/NR.png" alt="logo-pic" class="logo">
+            <nav>
+                <a class="hometxt" href="index.html">Home</a>
+                <a class="agent-infotxt" href="information.html">Agent Info</a>
+                <a class="contacttxt" href="contact-us.html">Contact/Referrals</a>
             </nav>
         </header>
         <div id="headshot-pic">
@@ -42,7 +40,6 @@
                 <p class="p8">7. What is the value of my current property? Using a combination of market analysis, comparable sales data, and my expertise in property valuation, I can provide you with an accurate assessment of your home's value, empowering you to make informed decisions when selling or refinancing.</p>
                 
                 </div>
-            </section>
            
         </main>
 
@@ -51,8 +48,33 @@
             <p><a href="site-plan.html">Site Plan</a></p>
             <p><a href="contact-us.html">Contact/Referrals</a></p>
         </footer>
-
     </div>
+
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="information.html">Agent Info</a>
+            <a href="contact-us.html">Contact/Referrals</a>
+        </div>
+    </div>
+
+    <!-- Use any element to open/show the overlay navigation menu -->
+    <span onclick="openNav()">Slide To The Right</span>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+    
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+
     
 </body>
 </html>
