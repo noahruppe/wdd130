@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nick Ruppe Realty</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div id="content-2">
-        <header>
-            <img src="images/NR.png" alt="logo-pic" class="logo-2">
-            </a>
+    <div id="content">
+        <header class="header-1">
+            <img src="images/NR.png" alt="logo-pic" class="logo">
             <nav>
-                <a href="index.html">Home</a>
-                <a href="information.html">Agent Info</a>
-                <a href="contact-us.html">Contact/Referrals</a>
+                <a class="hometxt" href="index.html">Home</a>
+                <a class="agent-infotxt" href="information.html">Agent Info</a>
+                <a class="contacttxt" href="contact-us.html">Contact/Referrals</a>
             </nav>
         </header>
         <div id="hero">
@@ -26,30 +26,63 @@
             </section>
         </div>
         <main class="home-grid-3">
-            <section class="msg-1">
+            <div class="main-background"></div>
+            <div class="msg-1">
                 <p>
                     Experience unparalleled professional assistance by reaching out to us today. Not only will you receive exceptional and personalized support, but we also offer exclusive incentives for referring your acquaintances. 
                     For each referral, we'll graciously include exclusive realty merchandise as a token of our appreciation. Simply utilize the contact information provided in the bottom right corner, including our email, phone number, or Facebook page, to get in touch with us.
                 </p>
-            </section>
+                <div class="contactus1">Contact Us!</div>
+            </div>
+            <div class="main-background2">
+                <h2 class="number">980-759-3819</h2>
+                <h2 class="email1">nick.ruppe1125@gmail.com</h2>
+                <div class="main-images">
+                    <a href="https://www.google.com/search?q=gmail+login&rlz=1C1RXMK_enUS1019US1020&oq=gmail&gs_lcrp=EgZjaHJvbWUqDwgDEAAYQxiDARixAxiKBTIGCAAQIxgnMgYIARBFGDkyCQgCECMYJxiKBTIPCAMQABhDGIMBGLEDGIoFMg8IBBAAGEMYgwEYsQMYigUyDwgFEAAYQxiDARixAxiKBTIGCAYQRRg9MgYIBxBFGD3SAQg0MTk5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8">
+                        <img class="email" src="images/gmail-logo.png" alt="gmail-logo">
+                    </a>
+                    <a href="https://www.facebook.com/search/top/?q=nick%20ruppe-kristie%20wright%20realty">
+                        <img class="facebook" src="images/facebook.png" alt="Facebook logo">
+                    </a>
+                </div>
+            </div>
 
         </main>
 
         <footer>
-            <p>Nick Ruppe Realty &copy; 2023-Noah Ruppe</p>
-            <p><a href="site-plan.html">Site Plan</a></p>
-            <p>980-759-3819</p>
-            <p>nick.ruppe1125@gmail.com</p>
-            <p><a href="https://www.facebook.com/search/top/?q=nick%20ruppe-kristie%20wright%20realty"></a></p>
-            <section class="logos">
-            <img class="email" src="images/gmail logo.png" alt="gmail logo">
-            <img class="facebook" src="images/facebook.png" alt="Facebook logo">
-            </section>
-
-
+            <p class="nick">Nick Ruppe Realty &copy; 2023-Noah Ruppe</p>
+            <p class="site"><a href="site-plan.html">Site Plan</a></p>
+            <p class="contact"><a href="contact-us.html">Contact/Referrals</a></p>
         </footer>
 
     </div>
+
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <a href="information.html">Agent Info</a>
+            <a href="contact-us.html">Contact/Referrals</a>
+        </div>
+    </div>
+
+    <!-- Use any element to open/show the overlay navigation menu -->
+    <span onclick="openNav()">Slide To The Right</span>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
     
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
 </body>
 </html>
+
+
+
+
